@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScreenSizeManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ScreenSizeManager.'
+  s.version          = '1.0.0'
+  s.summary          = '屏幕尺寸管理'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/476018863@qq.com/ScreenSizeManager'
+  s.homepage         = 'https://github.com/yanbinisgoodman/YBScreenSizeManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '476018863@qq.com' => '476018863@qq.com' }
-  s.source           = { :git => 'https://github.com/476018863@qq.com/ScreenSizeManager.git', :tag => s.version.to_s }
+  s.author           = { '晏斌' => '476018863@qq.com' }
+  s.source           = { :git => 'https://github.com/yanbinisgoodman/YBScreenSizeManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ScreenSizeManager/Classes/**/*'
+  s.source_files = 'ScreenSizeManager/**/*.{h,m}' #'ScreenSizeManager/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ScreenSizeManager' => ['ScreenSizeManager/Assets/*.png']

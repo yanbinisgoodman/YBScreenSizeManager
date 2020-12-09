@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8E2618422580744A005078AF /* ScreenSizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2618412580744A005078AF /* ScreenSizeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		045AC6A78A4089205876CC38 /* Pods-ScreenSizeManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenSizeManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-ScreenSizeManager_Tests/Pods-ScreenSizeManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		332539CB50752DC782CD0DEB /* Pods-ScreenSizeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenSizeManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-ScreenSizeManager_Example/Pods-ScreenSizeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3D99A838EA90C32EE5A47F51 /* ScreenSizeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ScreenSizeManager.podspec; path = ../ScreenSizeManager.podspec; sourceTree = "<group>"; };
+		3D99A838EA90C32EE5A47F51 /* ScreenSizeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScreenSizeManager.podspec; path = ../ScreenSizeManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ScreenSizeManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSizeManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +62,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CAFA1CD135EB7E8EDE45581 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8CAFA1CD135EB7E8EDE45581 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E26184025807449005078AF /* ScreenSizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSizeManager.h; sourceTree = "<group>"; };
+		8E2618412580744A005078AF /* ScreenSizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSizeManager.m; sourceTree = "<group>"; };
 		AC57190ABB005E849B697D43 /* Pods-ScreenSizeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenSizeManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ScreenSizeManager_Tests/Pods-ScreenSizeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C323400E3E8E36A097DABB76 /* Pods_ScreenSizeManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenSizeManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CADA94EF1846614C6416592E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CADA94EF1846614C6416592E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DBAB1406B00D760601A08ABB /* Pods_ScreenSizeManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenSizeManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEC5E163394D3F3567E9753 /* Pods-ScreenSizeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenSizeManager_Example.release.xcconfig"; path = "Target Support Files/Pods-ScreenSizeManager_Example/Pods-ScreenSizeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YBViewController.h */,
 				6003F5A6195388D20070C39A /* YBViewController.m */,
+				8E26184025807449005078AF /* ScreenSizeManager.h */,
+				8E2618412580744A005078AF /* ScreenSizeManager.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				AC57190ABB005E849B697D43 /* Pods-ScreenSizeManager_Tests.debug.xcconfig */,
 				045AC6A78A4089205876CC38 /* Pods-ScreenSizeManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "476018863@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4ASHCYU2NV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2618422580744A005078AF /* ScreenSizeManager.m in Sources */,
 				6003F59E195388D20070C39A /* YBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -494,9 +503,11 @@
 			baseConfigurationReference = 332539CB50752DC782CD0DEB /* Pods-ScreenSizeManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4ASHCYU2NV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScreenSizeManager/ScreenSizeManager-Prefix.pch";
 				INFOPLIST_FILE = "ScreenSizeManager/ScreenSizeManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +521,11 @@
 			baseConfigurationReference = DCEC5E163394D3F3567E9753 /* Pods-ScreenSizeManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4ASHCYU2NV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScreenSizeManager/ScreenSizeManager-Prefix.pch";
 				INFOPLIST_FILE = "ScreenSizeManager/ScreenSizeManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

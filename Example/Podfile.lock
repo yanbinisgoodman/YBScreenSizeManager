@@ -1,0 +1,16 @@
+PODS:
+  - ScreenSizeManager (0.1.0)
+
+DEPENDENCIES:
+  - ScreenSizeManager (from `../`)
+
+EXTERNAL SOURCES:
+  ScreenSizeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScreenSizeManager: f318216b5fa6f9b88f73befcbae5c40f2c52ee36
+
+PODFILE CHECKSUM: f3a7f4621f7ef759c2bd03e40c6ef64616f37aa5
+
+COCOAPODS: 1.9.3
